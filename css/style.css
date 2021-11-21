@@ -1,0 +1,163 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+#my_nav{
+    border-radius:0;
+    margin-bottom: 0;
+}
+#my_nav ul{
+    float: right;
+}
+#my_nav .navbar-brand{
+    color:#fff;
+}
+.temp_color{
+    color:gray;
+    margin-left: 10px;
+}
+/* header end */
+.bg_img{
+    background: url('../images/bg.jpg');
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.header_text{
+    text-align: center;
+    padding: 60px 0;
+}
+.header_text p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    word-spacing: 4px;
+    margin-bottom: 40px;
+    line-height: 30px;  
+    padding: 0 46px 0;  
+}
+.header_text p strong{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header_text a{
+    color:#fff;
+    font-weight: 200;
+    text-decoration: underline;
+}
+.my_btn{
+    width:150px;
+    height: 45px;
+    border:none;
+    color:#fff;
+    background-color: #d84780;
+    border-radius:5px;
+    font-size: 17px;
+}
+/* six images css start */
+.card_img{
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.card_img img{
+    width: 100%;
+}
+.card_img p{
+    text-align: center;
+    font-weight: 300;
+    padding: 30px 12px 16px;
+    line-height: 26px;
+    color:gray;
+}
+.for_mar{
+    margin-top: 60px;
+}
+/* six image css end */
+/* icon  nad text css start */
+.icon_text1{
+    color:#fff;
+    padding: 50px 0;
+}
+.icon_text1 i{
+    margin-top: 23px;
+    font-size: 37px;
+    float: right;
+}
+.icon_text1  p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #e6dfe7;
+}
+.icon_text1  h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 29px;
+}
+.icon_text1 hr{
+
+}
+/* icon and text css end */
+/* pink start */
+.pink_section{
+    width:100%;
+    background-color: #d84780;
+    padding: 80px 0;
+}
+.pink_section form{
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.pink_section form input{
+    border:0;
+    border-radius: 5px;
+}
+.form_btn{
+    background: none;
+    border: 1px solid #fff;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 11px;
+}
+
+/* pink end */
+/* foter start */
+footer{
+    background-color: #0f1116;
+    color:gray;
+    text-align: center;
+    padding: 50px 0;
+}
+footer a{
+    color:gray
+}
+footer a span{
+    border-radius: 100%;
+}
+footer p{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* footer end */
+@media (max-width:768px){
+    .card_img{
+        margin-bottom: 30px;
+    }
+    .for_mar{
+        margin-top: 0;
+    }
+    .pull-right {
+        float: left;
+    }
+    #my_nav ul{
+        float: left;
+    }
+}
